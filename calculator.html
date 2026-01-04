@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <input type="text"  placeholder="0" id="inputbox">
+    <div>
+        <button class="operator ">C</button>
+        <button class="operator ">AC</button>
+        <button class="operator ">%</button>
+        <button class="operator ">√</button>
+    </div>
+    <div>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator">/</button>
+    </div>
+    <div>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator">*</button>
+    </div>
+    <div>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator">-</button>
+    </div>
+    <div>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button class="operator">+</button>
+    </div>
+    <style>
+    button{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 50%;
+    }
+    input{
+        width: 235px;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: right;
+        background: transparent;
+        border: none;
+        color: white;
+        
+    }
+    input::placeholder{
+        color: white;
+    }
+    div{
+        margin-bottom: 5px;
+       
+    }
+    body{
+        background-color: black;
+    }
+    .operator{
+        background-color: orange;
+        color: white;
+    }
+    </style>
+
+<script src="../js/calculator.js"></script>
+</html>
+</body>
+    
