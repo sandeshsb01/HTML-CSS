@@ -1,3 +1,3 @@
 # HTML-CSS
 
-making of simple functional calculator using html css and javascript
+Here you get code of different simple and functional program using html css and javascript.
