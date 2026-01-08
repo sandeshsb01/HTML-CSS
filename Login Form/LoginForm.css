@@ -1,0 +1,110 @@
+
+body {
+    width : 100%;
+    height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background : #f0f0f0;
+}
+.container {
+   max-width: 400px;
+    width: 100%;
+    background: linear-gradient(to right, green,yellow);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: black;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 32px;
+    animation: appear 3s ease-in-out;
+    color: black;
+}
+.inputs {
+    position: relative;
+    margin-bottom: 24px;
+}
+.inputs input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: black;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none; 
+}
+
+.inputs label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 16px;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.inputs input:focus{
+    border-bottom: 2px solid purple;
+}
+.inputs input:focus + label,
+.inputs input:valid + label {
+    top: -14px;
+    font-size: 13px;
+    color: purple;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: white;
+}
+.options a {
+    color: black;
+    text-decoration: none;
+}
+.options a:hover {
+    text-decoration: underline;
+}
+.options input{
+    margin-right: 6px;
+}
+button {
+    width: 100%;
+    height: 40px;
+    background: purple;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: darkmagenta;
+}
+.signup {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+    color: white;
+}
+.signup a {
+    color: black;
+    text-decoration: none;
+}
+.signup a:hover {
+    text-decoration: underline;
+}
