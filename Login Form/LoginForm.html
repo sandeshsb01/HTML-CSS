@@ -20,8 +20,12 @@
 
             <div class="inputs">
                 <input type="password" required id="pwd" />
-               
                 <label>Password</label>
+            </div>
+
+              <div class="show">
+                <input type="checkbox" onclick="pwd.type=this.checked ? 'text' : 'password'"> 
+                <label>Show Password</label>
             </div>
 
             <div class="options">
@@ -36,5 +40,6 @@
     </div>
 
 </body>
+
 
 </html>
